@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+    />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bgc">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/as.jpg"
+            alt=""
+            width="35" height="30"
+            class="d-inline-block align-text-top"
+          />
+          Donate
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              Fundraise For 
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Medical Treatment</a></li>
+                <li><a class="dropdown-item" href="#">NGO /Charity</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Other Cause</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <div class="mx-2 my-2 text-center hq">
+            <button
+              class="sigbtn btn-success "
+              data-bs-toggle="modal"
+              data-bs-target="#SignUpModal"
+            >
+              SignUp
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    
+    <!-- SignUp Modal start-->
+    <div
+      class="modal fade"
+      id="SignUpModal"
+      tabindex="-1"
+      aria-labelledby="SignUpModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="SignUpModalLabel">
+              Create Account for Donation
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="ssac">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="cexampleInputPassword1" class="form-label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="cexampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button
+                type="submit"
+                class="sigbtn btn-primary"
+                data-bs-dismiss="modal"
+              >
+                SignUp
+              </button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="sigbtn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SignUp Modal end -->
+
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="sec1 col-6">
+            <h3>Need Funds to Pay For a Medical Emergency or Social Cause?</h3>
+
+            <section class="blue row">
+              <div class="container box-container row">
+                <div class="box col-4">
+                  <h3>0%</h3>
+                  <p>PLATFORM FEE</p>
+                </div>
+
+                <div class="box col-4">
+                  <h3>55 Lakh+</h3>
+                  <p>DONORS</p>
+                </div>
+
+                <div class="box col-4">
+                  <h3>2 Lack+</h3>
+                  <p>FUNDRAISERS</p>
+                </div>
+              </div>
+            </section>
+            <div>
+                <h2>0% Platform fees ensures maximum funds </h2>
+            </div>
+            <div class="row justify-content-center ss">
+                <div class="col-2"></div>
+                <div class="col-4">
+
+                    <a href="/contact.html"><button type="button" class="btn btn-info btn-lg b">Start a Fundraiser</button></a>
+                    
+                </div>
+                <div class="col-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="m1">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 sec2">
+            <div class="row">
+                <div class="col-3 m">
+                    <button type="button"data-bs-toggle="modal"
+                    data-bs-target="#SignUpModal" class=" sigbtn btn btn-info m">Start Donation</button>
+                </div>
+                <div class="col-7 m">
+                    <h3>Strat Monthly Donation to Save Lives</h3>
+                </div>
+                <div class="col-2 m">
+                    <img src="img/l.png"alt=""width="110"height="110" boarderRadius="22" class="d-inline-block align-text-top "/>
+                </div>
+            </div>
+        </div>
+                
+                
+        </div>
+        <div class="col-3"></div>
+    </div>
+
+    <!-- banner section ends -->
+    <div class="sec3">
+
+    <div class="row justify-content-center">
+        <!-- <div class="col-3"></div> -->
+        <div class="s">
+            <h1>Start a Fundraiser in three simple steps
+            </h1>
+        </div>
+        <div class="col-2 im">
+
+                    <img  src="https://ketto.gumlet.io/assets/images/homepage/sac-separator.png?w=100&dpr=1.3" alt="">
+ 
+        </div>
+        <div class="col-3">
+            <div class="row k">
+                <h3>Start your fundraiser</h3>
+                <p>It’ll take only 2 minutes. Just tell us a few details about you and the ones you are raising funds for.</p>
+            </div>
+            <div class="row l">
+                <h3>Share your fundraiser</h3>
+                <p>All you need to do is share the fundraiser with your friends and family. In no time, support will start pouring in.</p>
+            </div>
+            <div class="row g">
+                <h3>Withdraw Funds</h3>
+                <p>
+                    The funds raised can be withdrawn without any hassle directly to your bank account.
+                </p>
+            </div>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-3">
+
+            <video width="420" height="460" autoplay muted>
+              <source src="https://www.ketto.org/assets/videos/screen_recording.webm" type="video/mp4">
+              <source src="https://www.ketto.org/assets/videos/screen_recording.webm" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        
+    </div>
+    <div class="sec4">
+
+        <button type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#SignUpModal" class="sigbtn btn btn-primary btn-lg">START A FRUNDRAISER FOR FREE</button>
+        <button type="button"data-bs-toggle="modal"
+        data-bs-target="#SignUpModal"
+         class="sigbtn btn btn-secondary btn-lg "> TALK TO US</button>
+    </div>
+
+
+    <div class="sec5">
+       <h1>Causes you can raise funds for</h1> 
+       <p>Be it for a personal need, social cause or a creative idea - you can count on us for
+        the project that you want to raise funds for.</p>
+
+    </div>
+    
+        
+</div>
+
+
+
+
+    
+    <!-- service section starts  -->
+
+    <section class="service" id="service">
+  
+        <div class="box-container">
+          <div class="box">
+            <img src="img/s1.png" alt="" />
+            <div class="info">
+              <h4>MEDICAL</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#"><button class="btn btn-dark">more</button></a>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="img/s2.png" alt="" />
+            <div class="info">
+              <h4>MEMORIAL</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#"><button class="btn btn-dark">more</button></a>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="img/s3.jpg" alt="" />
+            <div class="info">
+              <h4>CHILDREN</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#"><button class="btn btn-dark ">more</button></a>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="img/s4.jpg" alt="" />
+            <div class="info">
+              <h4>EDUCATION</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </p>
+              <a href="#"><button class="btn btn-dark">more</button></a>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="img/s5.png" alt="" />
+            <div class="info">
+              <h4>ANIMAL</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+              <a href="#"><button class="btn btn-dark">more</button></a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="img/s6.jpg" alt="" />
+            <div class="info">
+              <h4>NGO</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#"><button class="btn btn-dark">more</button></a>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="img/s7.png" alt="" />
+            <div class="info">
+              <h4>BEGGIER</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#"><button class="btn btn-dark">more</button></a>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="img/s8.jpg" alt="" />
+            <div class="info">
+              <h4>OTHERS</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#"><button class="btn btn-dark">more</button></a>
+            </div>
+          </div>
+  
+        
+  
+        <div class="heading marg">
+          <span></span>
+        </div>
+      </section>
+  
+      <!-- service section ends -->
+      <div class="container sss">
+        <div class="sa">
+          <h1>
+            Success Stories
+          </h1>
+        </div>
+      
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+  
+          <h2>Heading</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+  
+          <h2>Heading</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+  
+          <h2>Heading</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+  
+          <h2>Heading</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+  
+          <h2>Heading</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+  
+          <h2>Heading</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+    </div>
+      
+      <div class="footer">
+        <div class="footer-icon">
+          <img src="img/k.png" height="200px">
+    
+        </div>
+    
+        <div class="footer-info">
+          Medical crowdfunding
+          <br>
+          Cancer Crowdfunding
+          <br>
+          Creative Fundraising
+          <br>
+          Animal Fundraisers
+          <br>
+          ΏCOVID-19 Relief Fund
+    
+    
+    
+          <div class="social-icons">
+                  <a href="https://www.facebook.com/open.tech.15" target="_blank" class="symbol-facebook"><span role="img" class="menu-item-icon fa fa-facebook"></span></a>
+                  <a href="https://twitter.com/opentechcorfu" target="_blank" class="symbol-twitter"><span role="img" class="menu-item-icon fa fa-twitter"></span></a>
+                  <a href="https://www.linkedin.com/company/11306439/" target="_blank" class="symbol-linkedin"><span role="img" class="menu-item-icon fa fa-linkedin"></span></a>
+                  <a href="https://www.instagram.com/opentechcorfu/" target="_blank" class="symbol-instagram"><span role="img" class="menu-item-icon fa fa-instagram"></span></a>
+              </div>
+          
+        </div>
+    
+        <div class="footer-nav">
+          <ul class="footer-nav-list">
+            <li><a href="https://open-tech.gr/" target="_blank" >Support</a></li>
+                  <li><a href="https://open-tech.gr/erga/" target="_blank" >Medical Finance</a></li>
+                  <li><a href="https://calculator.open-tech.gr/" target="_blank" >FAQs & Help Center</a></li>
+                  <li><a href="https://open-tech.gr/gia-emas/" target="_blank" >Fundraiser Video</a></li>
+                  <li><a href="https://open-tech.gr/xronologio/" target="_blank" >Trust & Safety</a></li>
+                  <li><a href="https://open-tech.gr/blog/" target="_blank" >Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
